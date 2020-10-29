@@ -1,0 +1,279 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Commissioner', sans-serif;
+    
+}
+
+/* CSS pour le menu  */
+
+#menu {
+     text-align: center;
+     background-color: #B7E3E6; 
+    margin: 0px auto 0px auto; 
+    color: #707070;  
+}
+
+
+
+#menu li {
+    display: inline;
+    list-style: none;
+    width: auto; 
+    font-size: 100%;
+    
+}
+
+#menu a {
+    display: inline-block;
+    margin: 0 30px;
+    text-align: center;
+    text-decoration: none;
+    color: #707070;
+    padding: 10px 0 20px 0;
+    width: 11%;
+}
+
+#menu a:hover {
+    background-color: #B7E3E6;
+    color: honeydew;
+    border-radius: 10px;
+    width: 10%;
+}
+
+/* Page d'accueil */
+
+h1 {
+    font-family: 'Merriweather Sans', sans-serif;
+    margin: 0%;
+    color: #707070;
+}
+
+.accueil {
+    width: 100%;
+    background-image: url(photos_pour_carrousel/voiture_carrousel1_resultat.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    /* margin-top: 20%; */
+    
+    }
+
+#num_picto {
+    display: flex;
+    margin-top: 36%;
+    background-color: #B7E3E6;
+    
+}
+
+#numero {
+    color: #707070;
+    width: 50%;
+    padding: 10%;
+
+}
+
+#reseaux img {
+    max-width: 5%;
+    float: right;
+}
+
+/* Qui sommes nous */
+
+
+.qui{
+    display: flex;
+    flex-flow: row wrap;
+    margin: 10px;
+    margin-top: 10%;
+    width: 100%;
+  }
+  .qui > div{
+    flex: 0 0 25%;
+    padding: 20px 0px;
+
+  }
+
+
+#intro {
+    width: 50%;
+    margin-right: 10%;
+    margin-left: 20%;
+    
+}
+
+#intro p {
+    line-height: 26px;
+    color: #707070;
+    font-size: 100%;
+}
+
+#vieux {
+    max-width: 70%;
+    border-radius: 10px;
+}
+
+h2 {
+    font-size: 220%;
+    font-family: 'Merriweather Sans';
+    color: #707070;
+}
+
+/* Ou nous trouver */
+
+.ou {
+    background-color: #e0f2f3;
+    color: white;
+    display: flex;
+    margin: 10px;
+    margin-top: 10%;
+    width: 100%;
+    
+}
+
+#ou_text {
+    
+    flex-flow: column wrap;
+    background-color: #B7E3E6;
+    color: #707070;
+}
+
+.ou ul {
+    margin-top: 15%;
+    font-size: 200%;
+    list-style: none;
+    color: #707070;
+
+}
+
+.ou p {
+    color: #707070;
+    font-size: 150%;
+    flex-flow: column wrap;
+    
+}
+
+/* Section chiffres clés */
+
+.chiffres {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 10%;
+    margin-top: 10%;
+    width: 100%;
+    color: #707070;
+    background-color: #B7E3E6;
+}
+.chiffres > div{
+    flex: 0 0 25%;
+    padding: 20px 0px;
+  }
+
+  /* Ils nous font confiance */
+
+  .confiance {
+      margin: 5px;
+    background-color:#e0f2f3;
+  }
+
+  .picto {
+    max-height: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.confiance h2 {
+    text-align: right;
+    background-color: #B7E3E6;
+    
+}
+
+/* Section Tarifs  */
+
+.tarifs {
+    background-color:#e0f2f3;
+}
+
+.tarifs h2 {
+    background-color: #B7E3E6;
+    justify-content: left;
+}
+
+.vehicule {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10%;
+    color: #707070;
+
+}
+
+.voiture {
+    background-image: url(pics/voiture2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: #707070;
+}
+
+.velo {
+    background-image: url(pics/velo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: #707070;
+}
+
+.camion {
+    background-image: url(pics/camionnette.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: #707070;
+}
+
+.besoin {
+    background-image: url(pics/png-clipart-car-volvo-trucks-truck-driver-semi-trailer-truck-car);
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: #707070;
+}
+
+/* Section Formulaire */
+
+.contact h2 {
+    text-align: center;
+    background-color: #B7E3E6;
+    
+}
+.contact div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #707070;
+}
+
+.formulaire label {
+    margin: 10px;
+   
+    
+}
+
+.formulaire input {
+    margin: 10px;
+    color: #707070;
+    
+}
+
+#message  {
+    width: 300px;
+    height: 150px;
+   
+    
+}
+
+/* ////////////////////////////////////////////////////////IPAD\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+@media all and (max-width)
